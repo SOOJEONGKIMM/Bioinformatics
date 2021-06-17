@@ -9,7 +9,9 @@ This assignment is to analyze the gene expression profiles of colon cancer patie
 You can download the “series matrix file” to easily obtain the pre-calculated gene expression indices and clinical information. In the series matrix file, “!Sample_characteristics_ch1” fields contain the clinical information. The gene expression was measured using Affymetrix U133+2 arrays. The series matrix file contains the expression indices for probe sets of the array. To map the probe sets to genes, the array annotation should be used.
 If you use Python, you may want to use scipy.stats module for various statistical tests. If you use R, you can easily find such functions. Please google them.
 For this data, please answer the following questions.
-Questions:
+
+
+	Questions:
 1. (Data description) Describe about the sample size, the number of probe sets, the number of clinical variables. How many unique genes are there? Why are certain genes measured by multiple probe sets?
 2. (Significant genes for sex) What are the sizes of men and women samples? By applying two-class t-tests, please find the significantly associated genes with sex for p-value < 0.001. How many probe sets and unique genes can you find? What are the top 10 unique genes? Which chromosomes do the top 10 significant genes locate? For the top 200 genes in the order of statistical significance, plot a heatmap. Please cluster genes and samples using hierarchal clustering.
 3. (Significant genes for KRAS mutation) Please find the significantly associated probe sets (as well as unique genes) with KRAS mutation using two-class t-tests. Please use the p-value criteria 0.001. Report the top 10 unique genes. Please repeat the analysis with permutation tests for the same p-value criteria. How much are two analysis results different or similar? (Hint: NA means “not available”. Such samples should be excluded)
@@ -47,7 +49,8 @@ The prediction result should be shown by ROC and AUC for discrete variables and 
 continuous variables. For each prediction problem, please ignore samples with missing values. The
 answer should include codes for the prediction.
       
-Questions:
+
+	Questions:
 1. (Sex) Predict the gender of samples. For the genes included in your predictor, find the significantly
 enriched gene sets among the C1 gene sets of MSigDB. Can you interpret the result?
 2. (Continuous tumor stage) Please predict TMN tumor stages of patients. TMN tumor stage can be
