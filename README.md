@@ -51,12 +51,12 @@ answer should include codes for the prediction.
       
 	
 	Questions:
-1. (Sex) Predict the gender of samples. For the genes included in your predictor, find the significantly
+Q1. (Sex) Predict the gender of samples. For the genes included in your predictor, find the significantly
 enriched gene sets among the C1 gene sets of MSigDB. Can you interpret the result?
-2. (Continuous tumor stage) Please predict TMN tumor stages of patients. TMN tumor stage can be
+Q2. (Continuous tumor stage) Please predict TMN tumor stages of patients. TMN tumor stage can be
 considered as a continuous variable.
-3. (Binary tumor stage) Instead of continuous TMN tumor stages, we will consider two stages. Stage
+Q3. (Binary tumor stage) Instead of continuous TMN tumor stages, we will consider two stages. Stage
 0, 1, and 2 are “benign” stage, and stage 3 and 4 are “malignant” stage. Please predict the binary
 tumor stage.
-4. (Reference Code) Review the given reference analysis code. Explain what this code does. If
+Q4. (Reference Code) Review the given reference analysis code. Explain what this code does. If
 necessary, explain with the line numbers.
