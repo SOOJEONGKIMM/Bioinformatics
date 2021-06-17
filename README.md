@@ -49,7 +49,7 @@ The prediction result should be shown by ROC and AUC for discrete variables and 
 continuous variables. For each prediction problem, please ignore samples with missing values. The
 answer should include codes for the prediction.
       
-
+	
 	Questions:
 1. (Sex) Predict the gender of samples. For the genes included in your predictor, find the significantly
 enriched gene sets among the C1 gene sets of MSigDB. Can you interpret the result?
